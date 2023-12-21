@@ -1,0 +1,7 @@
+.txt-gradient {
+  font-weight: 700;
+  background: -webkit-linear-gradient(#f8a7dc, #de05e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

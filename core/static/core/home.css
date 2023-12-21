@@ -1,0 +1,74 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: var(--black);
+}
+
+*:focus{
+    outline: 0;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    display: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 85px;
+    height: 85px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.full-logo-img {
+    width: 121px;
+    height: auto;
+    max-height: 35px;
+}
+
+#content{
+    width: 88%;
+    max-width: 1600px;
+    margin: 0 auto 8% auto;
+}
+
+/********* Your CSS Here **********/
+
+/********* ------------- **********/
+
+@media only screen and (max-width: 800px) {
+    .header {
+        min-height: 65px;
+        height: 65px;
+    }
+
+    .header-row{
+        width: 92%;
+    }
+
+    .full-logo-img {
+        width: 105px;
+        max-height: 28px;
+    }
+
+    #content {
+        width: 92%;
+        margin: 0 auto 15% auto;
+    }
+}
